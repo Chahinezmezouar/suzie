@@ -12,3 +12,8 @@ var Stadia_OSMBright = L.tileLayer(
 Stadia_OSMBright.addTo(map);
 
 var marker = L.marker([28.033886, 1.659626]).addTo(map);
+marker.bindPopup("<b>Hello world!</b><br>I am a popup.").openPopup();
+var popup = L.popup()
+    .setLatLng([28.033886, 1.659626])
+    .setContent("I am a standalone popup.")
+    .openOn(map);
