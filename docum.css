@@ -1,0 +1,104 @@
+/* Styles for the navigation bar */
+#navigation_bar {
+  background-color: #2fa9da;
+  overflow: hidden;
+}
+
+  
+#menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: #111;
+}
+
+body {
+    background-color: rgb(142, 225, 221);
+  }
+  
+/* Styles for the table of contents */
+#table_of_content {
+  background-color: #f1f1f1;
+  padding: 20px;
+  float: left;
+  width: 20%;
+  height: 100%;
+}
+
+#table_of_content h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+#ordered_list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#ordered_list li {
+  margin: 0;
+  padding: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#ordered_list li a {
+  text-decoration: none;
+}
+
+#ordered_list li a:hover {
+  color: #333;
+}
+
+/* Styles for the content */
+#content {
+  padding: 20px;
+  float: right;
+  width: 80%;
+}
+
+.content_para {
+  margin-bottom: 30px;
+}
+
+.content_para h1 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.content_para h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.content_para p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 600px) {
+  #table_of_content {
+    width: 100%;
+  }
+  
+  #content {
+    width: 100%;
+  }
+}
